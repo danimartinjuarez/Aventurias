@@ -1,6 +1,6 @@
 <html>
 <head></head>
-<title>Consultorio del Coder</title>
+<title>Aventurias</title>
 <body>
     <?php
         require ('vendor/autoload.php');
