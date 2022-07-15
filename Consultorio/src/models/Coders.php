@@ -46,4 +46,14 @@
         public function getDate_time(){
             return $this->date_time;
         }
+
+        public function findById($id) {
+            $query = $this->database->mysql->query("SELECT * FROM `{$this->table}` WHERE `id`={$id}");
+            $result = $query->fetchAll();
+            return new Coders($result[0]["id"], $result[0]["coder"], $result[0]["issue"], $result[0]["date_time"]);
+        }
+
+        public function destroy() {
+            $query = $this->database->mysql->query("DELETE FROM `{$this->table}`WHERE `{$this->table}`.`id` ={$this->id}");
+        }
     }
