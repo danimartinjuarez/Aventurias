@@ -2,9 +2,9 @@
     namespace App\Controllers;
 
     use App\Core\View;
-    use App\Models\Coders;
+    use App\Models\Users;
 
-    class CodersController {
+    class UsersController {
         public function __construct() {
             if (isset($_GET["action"]) && ($_GET["action"] == "delete")) {
                 $this-> delete($_GET["id"]);
@@ -20,21 +20,21 @@
         }
 
         public function index() {
-            $coder = new Coders();
-            $coders = $coder->all();
-            new View("coderList", ["coder" => $coders]);
+            $user = new Users();
+            $users = $user->all();
+            new View("userList", ["user" => $users]);
         }
 
         public function delete ($id) {
-            $coderHelper = new Coders();
-            $coder = $coderHelper->findById($id);
-            $coder->destroy();
+            $userHelper = new Users();
+            $user = $userHelper->findById($id);
+            $user->destroy();
 
             $this->index();
         }
 
         public function create() {
-            new View ("createCoder");
+            new View ("createUser");
         }
                
     }

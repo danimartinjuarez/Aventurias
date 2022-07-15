@@ -12,8 +12,8 @@
             <a href="./index.php"><button type="button" id="button-cancel" class="btn btn-outline-danger button-cancel">Cancel</button></a>
                 <form class="justify-content-center " action='?action=store' method="post">
                     <div class="input-group" style="margin-bottom: 2rem; width: 90%; margin-left: 5%;">
-                        <span class="input-group-text">Coder / Team</span>
-                        <input class="form-control" type="text" name="coder" required placeholder="Coder">
+                        <span class="input-group-text">User / Team</span>
+                        <input class="form-control" type="text" name="user" required placeholder="User">
                     </div>
                     <div class="input-group" style="width:90%; margin-left: 5%;">
                         <span class="input-group-text">Issue description</span>
@@ -27,6 +27,6 @@
         </main>
     </div>
     <?php
-    require_once("Component/FOoter.php");
+    require_once("Component/Footer.php");
     ?>    
 </body>

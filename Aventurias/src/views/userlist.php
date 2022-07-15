@@ -1,6 +1,6 @@
 <html>
     <?php
-    //echo "estoy en coderlist";
+    echo "estoy en userlist";
     require_once ("Components/layout.php");
     ?>
     <body>
@@ -13,7 +13,7 @@
             </div>
 
             <div>
-              <a href= '?action=create&id={$coder->getID()}'>➕</a>
+              <a href= '?action=create&id={$user->getID()}'>➕</a>
             </div>
 
             <div id="wrapper">
@@ -25,7 +25,7 @@
                         <thead>
                           <tr>
                             <th>Date / time</th>
-                            <th>Coder name / Team</th>
+                            <th>User name / Team</th>
                             <th>Issue</th>
                             <th>Id</th>
                             <th>Action</th>
@@ -34,16 +34,16 @@
 
                         <tbody>
                         <?php
-                          foreach ($data["coder"] as $coder){
+                          foreach ($data["user"] as $user){
                               
                               echo "
                               <tr>
-                                <td>{$coder->getDate_time()}</td>
-                                <td>{$coder->getCoder()}</td>
-                                <td>{$coder->getIssue()}</td>
-                                <td>{$coder->getID()}</td>
+                                <td>{$user->getDate_time()}</td>
+                                <td>{$user->getName()}</td>
+                                <td>{$user->getPhone()}</td>
+                                <td>{$user->getID()}</td>
                                 <td>
-                                  <a href= '?action=delete&id={$coder->getID()}'><i class='lnr lnr-trash'>🗑️</i></a>
+                                  <a href= '?action=delete&id={$user->getID()}'><i class='lnr lnr-trash'>🗑️</i></a>
                                 </td>                                
                               </tr>
                               ";
