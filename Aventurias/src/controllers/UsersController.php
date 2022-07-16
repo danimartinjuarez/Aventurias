@@ -12,7 +12,12 @@
             }
 
             if (isset($_GET["action"]) && ($_GET["action"] == "create")) {
-                $this-> create();
+                $this->create($_GET["id"]);
+                return;
+            }
+
+            if (isset($_GET["action"]) && ($_GET["action"] == "store")) {
+                $this->store($_POST);
                 return;
             }
 
@@ -35,6 +40,12 @@
 
         public function create() {
             new View ("createUser");
+        }
+
+        public function store (array $request) {
+            $newUser = new Users(null, $request["name"], $request ["phone"]);
+            $newUser->save();
+            $this->index();
         }
                
     }

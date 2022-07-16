@@ -25,8 +25,8 @@
                         <thead>
                           <tr>
                             <th>Date / time</th>
-                            <th>User name / Team</th>
-                            <th>Issue</th>
+                            <th>User name</th>
+                            <th>Phone</th>
                             <th>Id</th>
                             <th>Action</th>
                           </tr>
