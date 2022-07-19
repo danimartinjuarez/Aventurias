@@ -1,17 +1,21 @@
 <html>
+<style>
+  @import url("src/css/userList.css");
+  </style>
+
     <?php
-    echo "estoy en userlist";
     require_once ("Components/layout.php");
     ?>
     <body>
+
         <?php
         require_once ("Components/header.php");
         ?>
         <main>
-            <div class="card-header py-3">
-                <h1 class="font-weight-bold text-black titulo-pagina">Task appointment</h1>
-            </div>
-
+          <section class="front"> 
+            <div id="pageTitle"><h2>RESERVAS</h2></div>        
+            <a class="btn btn-outline-light btn-lg" href="#!" role="button">NUEVA AVENTURA</a>
+          </section>  
             <div>
               <a href= '?action=create&id={$user->getID()}'>➕</a>
             </div>
@@ -24,11 +28,13 @@
                       <table class="table table-bordered" width="100%" cellspacing="0">
                         <thead>
                           <tr>
-                            <th>Date / time</th>
-                            <th>User name</th>
-                            <th>Phone</th>
-                            <th>Id</th>
-                            <th>Action</th>
+                            <th></th>
+                            <th>Fecha</th>
+                            <th>Aventura</th>
+                            <th>Nombre</th>
+                            <th>Nº</th>
+                            <th>Info</th>
+                            
                           </tr>
                         </thead>
 
@@ -38,13 +44,14 @@
                               
                               echo "
                               <tr>
-                                <td>{$user->getDate_time()}</td>
-                                <td>{$user->getName()}</td>
-                                <td>{$user->getPhone()}</td>
-                                <td>{$user->getID()}</td>
                                 <td>
-                                  <a href= '?action=delete&id={$user->getID()}'><i class='lnr lnr-trash'>🗑️</i></a>
-                                </td>                                
+                                <a href= '?action=delete&id={$user->getID()}'>🗑️</a>
+                                </td>    
+                                <td>{$user->getDate_time()}</td>
+                                <td>{$user->getAdventures()}</td>
+                                <td>{$user->getName()}</td>
+                                <td>{$user->getPeople()}</td>
+                                <td>{$user->getInfo()}</td
                               </tr>
                               ";
                           }
@@ -58,8 +65,5 @@
               </div>
             </div>
         </main>
-        <?php
-        require_once ("Components/footer.php");
-        ?>
     </body>
 </html>

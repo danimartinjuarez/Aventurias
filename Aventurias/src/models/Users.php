@@ -58,7 +58,7 @@
             return $this->people;
         }
         public function getAdventures(){
-            return $this->adventures;
+            return $this->adventure;
         }
         public function getInfo(){
             return $this->info;

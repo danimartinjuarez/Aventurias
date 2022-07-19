@@ -26,7 +26,5 @@
                 </form>
         </main>
     </div>
-    <?php
-    require_once("Component/Footer.php");
-    ?>    
+    
 </body>

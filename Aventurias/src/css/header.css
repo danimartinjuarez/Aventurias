@@ -1,0 +1,25 @@
+
+
+header{
+    display: flex;
+    align-items: flex-end;
+    background-color: #024164;
+    width: 100%;
+    height: auto;
+    padding: 0.5vw;
+}
+
+#logo img{
+    height:8vh;
+    width: auto;
+}
+#title h2{
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    
+    font-size: 4vh;
+}
+
+#pageTitle{
+    color: white;
+}
