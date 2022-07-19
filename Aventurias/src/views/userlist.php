@@ -1,8 +1,4 @@
 <html>
-<style>
-  @import url("src/css/userList.css");
-  </style>
-
     <?php
     require_once ("Components/layout.php");
     ?>
@@ -14,12 +10,8 @@
         <main>
           <section class="front"> 
             <div id="pageTitle"><h2>RESERVAS</h2></div>        
-            <a class="btn btn-outline-light btn-lg" href="#!" role="button">NUEVA AVENTURA</a>
+            <a class="btn btn-outline-light btn-lg" href= '?action=create&id={$user->getID()}' role="button">NUEVA AVENTURA</a>
           </section>  
-            <div>
-              <a href= '?action=create&id={$user->getID()}'>➕</a>
-            </div>
-
             <div id="wrapper">
               <div id="content-wrapper" class="d-flex flex-column">
                 <div id="content">
