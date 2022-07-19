@@ -1,6 +1,6 @@
 <html>
     <?php
-    echo "estoy en userlist";
+    
     require_once ("Components/layout.php");
     ?>
     <body>
@@ -13,7 +13,7 @@
             </div>
 
             <div>
-              <a href= '?action=create&id={$user->getID()}'>➕</a>
+              <a href= '?action=create'>➕</a>
             </div>
 
             <div id="wrapper">
@@ -29,6 +29,7 @@
                             <th>Phone</th>
                             <th>Id</th>
                             <th>Action</th>
+                            
                           </tr>
                         </thead>
 
@@ -44,7 +45,8 @@
                                 <td>{$user->getID()}</td>
                                 <td>
                                   <a href= '?action=delete&id={$user->getID()}'><i class='lnr lnr-trash'>🗑️</i></a>
-                                </td>                                
+                                </td>  
+                                                              
                               </tr>
                               ";
                           }

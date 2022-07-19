@@ -1,32 +1,72 @@
 <?php 
-    require_once("Components/Layout.php");
-
-    require_once("Components/Header.php");
+    require_once("Components/layout.php");    
 ?>
 
-<body>
-    <div class="create row justify-content-center">
-        <main class="card" style="width:80%; height: 27rem; display: flex; justify-content:center; ">
-
-            <h2 class="text-center" style="margin-bottom:3 rem; margin-top: 1rem;">New Adventure</h2>
-            <a href="./index.php"><button type="button" id="button-cancel" class="btn btn-outline-danger button-cancel">Cancel</button></a>
-                <form class="justify-content-center " action='?action=store' method="post">
-                    <div class="input-group" style="margin-bottom: 2rem; width: 90%; margin-left: 5%;">
-                        <span class="input-group-text">Name</span>
-                        <input class="form-control" type="text" name="name" required placeholder="Name">
-                    </div>
-                    <div class="input-group" style="width:90%; margin-left: 5%;">
-                        <span class="input-group-text">Description</span>
-                        <textarea class="form-control" area-label="With textarea" type="text" name="phone" required placeholder="Phone"></textarea>
-                    </div>
-                    <div class="botones" style="margin-bottom: 2rem;">
-                        <input class="btn-lg btn-outline-success go-add-task float" type="submit" value="Crear">
-                        <input class="btn-lg btn-outline-warning go-add-task float" type="reset" value="Reset">
-                    </div>
-                </form>
-        </main>
-    </div>
+<body id="bodyForCreateUser">
     <?php
-    require_once("Component/Footer.php");
-    ?>    
+        require_once("Components/Header.php");
+    ?>
+<!-- <section id="formNewAdventure"> -->
+        <form class="row g-3" id="form">
+<div id="checkImages">
+            <div class="form-check, check" >
+            <label class="form-check-label" for="flexRadioDefault1">                    
+                    <img class="imgAdventure" src="public/images/descenso-en-canoa.jpeg" alt="escoger aventura descenso en canoa">
+            </label>
+            <br>
+                <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="descenso en canoa">
+                
+                </div>
+                <div class="form-check, check">
+                <label class="form-check-label" for="flexRadioDefault2">
+                    <img class="imgAdventure" src="public/images/motosagua.jpeg" alt="Escoger aventura motos de agua">
+                </label>
+                <br>
+                <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="motos de agua" >
+                
+                </div>
+                <div class="form-check, check">
+                <label class="form-check-label" for="flexRadioDefault3">                    
+                    <img class="imgAdventure" src="public/images/parapente.jpeg" alt="escoger aventura parapente">
+                </label>
+                <br>
+                <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault3" value="parapente">
+                
+                </div>
+                <div class="form-check, check">
+                <label class="form-check-label" for="flexRadioDefault4">
+                    <img class="imgAdventure" src="public/images/Ruta_del_Cares.jpeg" alt="Escoger aventura Ruta del Cares">
+                </label>
+                <br>
+                <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault4" value="Ruta del Cares" >
+                
+            </div>
+</div>
+            <div class="col-md-6">
+            <label for="inputName" class="form-label">Nombre</label>
+            <input type="name" class="form-control" id="inputName" name="">
+            </div>
+            <div class="col-md-6">
+            <label for="inputPhone" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="inputPhone">
+            </div>
+            <div class="col-12">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="text" class="form-control" id="inputEmail" placeholder="Tu email habitual">
+            </div>
+            <div class="col-12">
+            <label for="inputPeople" class="form-label">Nº de personas:</label>
+            <input type="text" class="form-control" id="inputPeople">
+            </div>
+            <div class="col-md-6">
+            <label for="inputInfo" class="form-label">Observaciones:</label>
+            <input type="text" class="form-control" id="inputInfo">
+            </div>
+            
+        </form>
+        <div class="col-12" id="submitButton">
+            <button type="submit" class="btn btn-primary" >Sign in</button>
+            </div>
+    <!-- </section> -->
+       
 </body>

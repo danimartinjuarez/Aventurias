@@ -12,7 +12,7 @@
             }
 
             if (isset($_GET["action"]) && ($_GET["action"] == "create")) {
-                $this->create($_GET["id"]);
+                $this->create();
                 return;
             }
 

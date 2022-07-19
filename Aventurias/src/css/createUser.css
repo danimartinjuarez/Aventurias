@@ -1,0 +1,31 @@
+#form{
+    background-color: white;
+    width: 69vw;
+    margin-bottom: 10%;
+    position: relative;   
+    
+}
+#submitButton {
+    margin-bottom: 10%;
+}
+#bodyForCreateUser {
+    background-color: #96D5F8;
+    margin-right: 15vw;
+    margin-left: 16vw;
+    
+}
+#checkImages {
+    width: 100em;
+    display: flex;
+    justify-content: space-between; 
+    padding: 2vw;
+}
+.point {
+    margin-left: 2.75vw;
+    margin-top: 1vh;
+}
+.check {
+    width: 10%;
+}
+
+
