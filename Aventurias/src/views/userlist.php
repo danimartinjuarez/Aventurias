@@ -10,7 +10,7 @@
         <main>
           <section class="front"> 
             <div id="pageTitle"><h2>RESERVAS</h2></div>        
-            <a class="btn btn-outline-light btn-lg" href= '?action=create&id={$user->getID()}' role="button">NUEVA AVENTURA</a>
+            <a class="btn btn-outline-light btn-lg" href= '?action=create' role="button">NUEVA AVENTURA</a>
           </section>  
             <div id="wrapper">
               <div id="content-wrapper" class="d-flex flex-column">
@@ -38,6 +38,7 @@
                               <tr>
                                 <td>
                                 <a href= '?action=delete&id={$user->getID()}'>🗑️</a>
+                                <a href= '?action=edit&id={$user->getID()}'>📝</a>
                                 </td>    
                                 <td>{$user->getDate_time()}</td>
                                 <td>{$user->getAdventures()}</td>

@@ -21,6 +21,16 @@
                 return;
             }
 
+            if (isset($_GET["action"]) && ($_GET["action"] == "edit")) {
+                $this->edit($_GET["id"]);
+                return;
+            }
+
+            if (isset($_GET["action"]) && ($_GET["action"] == "update")) {
+                $this-> update($_POST, $_GET["id"]);
+                return;
+            }
+
             $this->index();
         }
 
@@ -45,6 +55,23 @@
         public function store (array $request) {
             $newUser = new Users(null, $request["name"], $request ["phone"]);
             $newUser->save();
+            $this->index();
+        }
+
+        public function edit ($id) {
+            $userHelper = new Users();
+            $user = $userHelper->findById($id);
+            new View("editUser", ["user"=>$user]);    //duda
+            
+            $this->index();
+        }
+
+        public function update (array $request, $id) {
+            $userHelper = new Users();
+            $user = $userHelper->findById($id);
+            $user->rename($request["name"], $request["phone"], $request["email"], $request["people"], $request["adventure"], $request["info"]);
+            $user->update();
+
             $this->index();
         }
                
