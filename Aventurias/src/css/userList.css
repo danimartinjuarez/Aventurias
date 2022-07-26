@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Work+Sans:ital,wght@0,400;1,400;1,700&display=swap');
 
+.tableBox{
+    margin: 4vh 2vw 4vh 2vw;
+} 
 
 thead{
     background-color: #feda24d5 ;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px; 
     color: #024164;
+   
 }
 tbody{
     background-color: white ;
@@ -17,8 +21,8 @@ main{
 }
 
 .front{
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 40vh;
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.11XI3row9ek0X_zZsxRRiwHaFI&pid=Api") ;
     background-color:#024164;
     background-size:cover;
@@ -42,3 +46,11 @@ flex-direction: column;
 align-items: center;
 width: 100%;
 }
+
+/* @include media-breakpoint-up(sm) {
+    (max-width:575.98px)  {
+        .front {
+            display: block;
+        }
+    }
+} */ 
