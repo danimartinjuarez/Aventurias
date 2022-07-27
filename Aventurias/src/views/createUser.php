@@ -8,9 +8,9 @@ require_once("Components/layout.php");
     ?>
     <section class="front">
         <div id="pageTitle">
-            <h2>RESERVAS</h2>
+            <h2>NUEVA AVENTURA</h2>
         </div>
-        <a class="btn btn-outline-light btn-lg" href='?action=create&id={$user->getID()}' role="button">NUEVA AVENTURA</a>
+        <a class="btn btn-outline-light btn-lg" href='?action=create&id={$user->getID()}' role="button">VOlVER</a>
     </section>
     <!-- <section id="formNewAdventure"> -->
     <section class="newAdventure">
