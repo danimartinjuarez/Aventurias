@@ -80,4 +80,17 @@
         public function save(){
             $this->database->mysql->query("INSERT INTO `{$this->table}`(`name`, `phone`) VALUES  ('$this->name', '$this->phone');");
         }
+
+        public function rename($name, $phone, $email, $info, $adventure, $people) {
+            $this->name=$name;
+            $this->phone=$phone;
+            $this->info=$info;
+            $this->adventure=$adventure;
+            $this->people=$people;
+            $this->email=$email;
+        }
+
+        public function update() {
+            $this->database->mysql->query("UPDATE `{$this->table}` SET `name`='{$this->name}', `phone`= '{$this->phone}', `email`='{$this->email}', `info`= '{$this->info}', `adventure`='{$this->adventure}', `people`= '{$this->people}' WHERE `ID` = {$this->id}");
+        }
     }
