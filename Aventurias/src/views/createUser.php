@@ -8,15 +8,16 @@ require_once("Components/layout.php");
     ?>
     <!-- <section id="formNewAdventure"> -->
     <div class="text-center bg-image container-fluid">
-    <div class="mask" style="margin:0";>
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white">
-          <h1 class="mb-3">Nueva aventura</h1>
-          <a class="btn btn-outline-light btn-lg  text-align:center" href="#!" role="button">VOLVER</a>
+        <div class="mask" style="margin:0";>
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                <h1 class="mb-3 tittle">Nueva aventura</h1>
+                <a class="btn btn-outline-light btn-lg  text-align:center" href="#!" role="button">VOLVER</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+    
   <section class="formSection">
 
     <form class="row g-3" id="form" action='?action=store' method="POST">

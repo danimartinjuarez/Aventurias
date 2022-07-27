@@ -4,8 +4,4 @@
 @import "userList.css";
 @import "createUser.css";
 @import "images.css";
-
-*{
-    margin: 0;
-    padding: 0;
-}
+@import "reset.css";
