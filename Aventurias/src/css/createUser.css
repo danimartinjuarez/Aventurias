@@ -1,7 +1,7 @@
-.front{
-    width: 100%;
+.mask{
+    width:98vw;
     height: 50vh;
-    background-image: url("https://tse4.mm.bing.net/th?id=OIP.11XI3row9ek0X_zZsxRRiwHaFI&pid=Api") ;
+    background-image:url("https://tse4.mm.bing.net/th?id=OIP.11XI3row9ek0X_zZsxRRiwHaFI&pid=Api");
     background-color:#024164;
     background-size:cover;
     background-repeat: no-repeat;
@@ -9,12 +9,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+        
+}
+
+.btn{
+    border:solid white 2px;
+    border-radius:20px;
+    background-color: transparent;
+    max-width: 15vw;
+    max-height: 12vh;
+    font-size: x-large;
+    font-weight: 700;
+    
+
 }
 
 
 #form{
     background-color: white;
-    width: 69vw;
+    width: 90vw;
+    margin-top: 4vh;
+    height: auto;
 
 }
 #submitButton {
@@ -42,4 +58,41 @@ body {
     width: 10%;
 }
 
+.formSection{
+    display:flex;
+    flex-direction: column;
+    width: 90vw;
+}
 
+#deleteButton  {
+    display: flex;
+    justify-content: flex-end;
+}
+.deleteButton{    
+    margin-top: 3vh;
+    background-color: #024164;
+    border-radius: 20px;
+    border:none;
+}
+
+#submitButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.submitButton{
+    margin-top: 3vh;
+background-color: #024164;
+border-radius: 20px;
+border:none;
+height: 7vh;
+}
+
+.cancelButton{
+background-color: transparent;
+color: #024164;
+border-radius: 20px;
+border:none;
+height: 7vh;
+}

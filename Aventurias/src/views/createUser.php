@@ -7,12 +7,18 @@ require_once("Components/layout.php");
     require_once("Components/Header.php");
     ?>
     <!-- <section id="formNewAdventure"> -->
-    <section class="front">
-        <div id="pageTitle">
-            <h2>NUEVA AVENTURA</h2>
+    <div class="text-center bg-image container-fluid">
+    <div class="mask" style="margin:0";>
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Nueva aventura</h1>
+          <a class="btn btn-outline-light btn-lg  text-align:center" href="#!" role="button">VOLVER</a>
         </div>
-        <a class="btn btn-outline-light btn-lg" href='?action=create' role="button">VOLVER</a>
-    </section>
+      </div>
+    </div>
+  </div>
+  <section class="formSection">
+
     <form class="row g-3" id="form" action='?action=store' method="POST">
         <div id="checkImages">
             <div class="form-check, check">
@@ -69,15 +75,24 @@ require_once("Components/layout.php");
             <input type="text" class="form-control" id="inputInfo" name="info">
         </div>
 
-        <div class="col-12" id="submitButton">
-            <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
+
 
     </form>
-    </section>
-    <div class="col-12" id="submitButton">
-        <button type="submit" class="btn btn-primary">Sign in</button>
-    </div>
+
+        <div class="col-12" id="deleteButton">
+            <button type="submit" class="deleteButton btn btn-primary">Borrar formulario</button>
+        </div>
+
+        </<section>
+            
+        
+        <div class="col-12" id="submitButton">
+        <button type="submit" class="submitButton btn btn-primary">Aceptar</button>
+        
+        <button type="submit" class="cancelButton btn btn-primary">cancelar</button>
+        </div>
+    
+
     <!-- </section> -->
 
 </body>
