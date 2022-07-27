@@ -1,15 +1,15 @@
-#form{
+/*form{
     background-color: white;
     width: 69vw;
-    margin-bottom: 10%;
-    position: relative;   
+    margin-bottom: 30%;
+    position: relative;    
     
 }
 #submitButton {
     margin-bottom: 10%;
 }
-#bodyForCreateUser {
-    background-color: #96D5F8;
+#bodyForCreateUser { 
+    background-color: white;
     margin-right: 15vw;
     margin-left: 16vw;
     
@@ -28,4 +28,4 @@
     width: 10%;
 }
 
-
+*/
