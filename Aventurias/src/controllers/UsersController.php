@@ -53,7 +53,7 @@
         }
 
         public function store (array $request) {
-            $newUser = new Users(null, $request["name"], $request ["phone"]);
+            $newUser = new Users(null, $request["name"], $request ["phone"], $request["email"], $request ["people"], $request["adventure"], $request ["info"]);
             $newUser->save();
             $this->index();
         }

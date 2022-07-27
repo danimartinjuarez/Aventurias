@@ -1,4 +1,4 @@
-/*form{
+form{
     background-color: white;
     width: 69vw;
     margin-bottom: 30%;
@@ -28,4 +28,14 @@
     width: 10%;
 }
 
-*/
+#imgCanoa {
+    
+}
+.backButton {
+    width: 25vw;
+    margin-left: 37.5vw;
+    margin-top: -20vh;
+}
+#frontCreate {
+    
+}

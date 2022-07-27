@@ -7,6 +7,10 @@
         
 ?>
 
+<div id="frontCreate">    
+    <img src="public/images/descenso-en-canoa.jpeg" class="img-fluid" id="imgCanoa" alt="Responsive image">
+    <a href="index.php" class="btn btn-primary backButton">Volver</a>
+</div>
     <!-- <section id="formNewAdventure"> -->
     <form class="row g-3" id="form" action='?action=store' method="POST">
         <div id="checkImages">
@@ -15,7 +19,7 @@
                     <img class="imgAdventure" src="public/images/descenso-en-canoa.jpeg" alt="escoger aventura descenso en canoa">
                 </label>
                 <br>
-                <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="descenso en canoa">
+                <input class="form-check-input, point" type="radio" name="adventure" id="flexRadioDefault1" value="descenso en canoa">
                 
             </div>
             <div class="form-check, check">
@@ -23,7 +27,7 @@
                     <img class="imgAdventure" src="public/images/motosagua.jpeg" alt="Escoger aventura motos de agua">
                 </label>
                 <br>
-                <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="motos de agua" >
+                <input class="form-check-input, point" type="radio" name="adventure" id="flexRadioDefault2" value="motos de agua" >
                 
             </div>
             <div class="form-check, check">
@@ -31,7 +35,7 @@
                     <img class="imgAdventure" src="public/images/parapente.jpeg" alt="escoger aventura parapente">
                 </label>
                 <br>
-                <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault3" value="parapente">
+                <input class="form-check-input, point" type="radio" name="adventure" id="flexRadioDefault3" value="parapente">
                 
             </div>
             <div class="form-check, check">
@@ -39,7 +43,7 @@
                     <img class="imgAdventure" src="public/images/Ruta_del_Cares.jpeg" alt="Escoger aventura Ruta del Cares">
                 </label>
                 <br>
-                <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault4" value="Ruta del Cares" >
+                <input class="form-check-input, point" type="radio" name="adventure" id="flexRadioDefault4" value="Ruta del Cares" >
                 
             </div>
         </div>
@@ -65,7 +69,8 @@
         </div>
 
         <div class="col-12" id="submitButton">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="reset" class="btn btn-primary">Borrar Formulario</button>
+            <button type="submit" class="btn btn-primary">Aceptar</button>
         </div>
             
     </form>

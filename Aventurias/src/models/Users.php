@@ -78,7 +78,7 @@
         }
 
         public function save(){
-            $this->database->mysql->query("INSERT INTO `{$this->table}`(`name`, `phone`) VALUES  ('$this->name', '$this->phone');");
+            $this->database->mysql->query("INSERT INTO `{$this->table}`(`name`, `phone`, `email`, `people`, `adventure`, `info` ) VALUES  ('$this->name', '$this->phone', '$this->email', '$this->people', '$this->adventure', '$this->info');");
         }
 
         public function rename($name, $phone, $email, $info, $adventure, $people) {
