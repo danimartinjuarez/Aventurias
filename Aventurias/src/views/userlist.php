@@ -13,7 +13,7 @@
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <div class="text-white">
                         <h1 class="mb-3 tittle">RESERVAS</h1>
-                        <a class="btn btn-outline-light text-align:center" href= '?action=create' role="button">Nueva Aventura</a>
+                        <a class="newAdventure btn btn-outline-light text-align:center" href= '?action=create' role="button">Nueva Aventura</a>
                         </div>
                     </div>
                 </div>
@@ -27,12 +27,12 @@
                       <table class="table table-bordered" width="100%" cellspacing="0">
                         <thead>
                           <tr>
-                            <th></th>
-                            <th>Fecha</th>
-                            <th>Aventura</th>
-                            <th>Nombre</th>
-                            <th>Nº</th>
-                            <th>Info</th>
+                            <th style ="width:2vw"></th>
+                            <th style ="width:8vw">Fecha</th>
+                            <th style ="width:14vw">Aventura</th>
+                            <th style ="width:10vw">Nombre</th>
+                            <th style ="width:5vw">Nº</th>
+                            <th style ="width:25vw">Info</th>
                             
                           </tr>
                         </thead>

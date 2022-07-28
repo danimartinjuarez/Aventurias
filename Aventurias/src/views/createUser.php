@@ -82,7 +82,7 @@ require_once("Components/layout.php");
             </div>
             <div class="col-12" id="submitButton">
             
-            <button type="submit" class="btn btn-primary">Aceptar</button>
+            <button type="submit" class= "submitButton btn btn-primary">Aceptar</button>
         </div>
             </form>
 
