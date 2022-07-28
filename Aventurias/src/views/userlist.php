@@ -2,15 +2,22 @@
     <?php
     require_once ("Components/layout.php");
     ?>
-    <body>
-
-        <?php
+    <body class="userlist">
+          <?php
         require_once ("Components/header.php");
         ?>
-        <main>
+        <main class="homePage">
           <section class="front"> 
-            <div id="pageTitle"><h2>Reservas</h2></div>        
-            <a class="btn btn-outline-light " href= '?action=create' role="button">NUEVA AVENTURA</a>
+            <div class="text-center bg-image">
+                <div class="mask" style="margin:0";>
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="text-white">
+                        <h1 class="mb-3 tittle">RESERVAS</h1>
+                        <a class="btn btn-outline-light text-align:center" href= '?action=create' role="button">Nueva Aventura</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
           </section>  
             <div id="wrapper">
               <div id="content-wrapper" class="d-flex flex-column">

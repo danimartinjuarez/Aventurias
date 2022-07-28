@@ -1,5 +1,5 @@
 
-.mask{
+.front{
     width:100%;
     height:50vh;
     background-image:url("https://tse4.mm.bing.net/th?id=OIP.11XI3row9ek0X_zZsxRRiwHaFI&pid=Api");
@@ -20,9 +20,8 @@
         font-weight:700;
         font-family: 'Work Sans', sans-serif;
         
-
-        
 }
+
 
 .mask .btn{
     border:solid white 2px;
@@ -35,7 +34,7 @@
     background-color: white;
 }
 
-#form{
+.formCreate{
     background-color: white;
     width: 90vw;
     height: auto;
@@ -44,15 +43,7 @@
 #submitButton {
     margin-bottom: 10%;
 }
-body {
-    background-color: #96D5F8;
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
 
-    
-}
 #checkImages {
     width: 100em;
     display: flex;
@@ -70,8 +61,8 @@ body {
 .formSection{
     display:flex;
     flex-direction: column;
-    width: 90vw;
-    
+    width: 100vw;
+    align-items: center;
 }
 
 #deleteButton  {
@@ -105,4 +96,12 @@ body {
     border-radius: 20px;
     border:none;
     height: 7vh;
+}
+.newAdvPage{
+    background-color:#96D5F8;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
 }
