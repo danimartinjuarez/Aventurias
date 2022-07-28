@@ -20,7 +20,7 @@
                     <img class="imgAdventure" src="public/images/descenso-en-canoa.jpeg" alt="escoger aventura descenso en canoa">
                 </label>
                 <br>
-                <input class="form-check-input, point" type="radio" name="adventure" id="flexRadioDefault1" value="descenso en canoa">
+                <input class="form-check-input, point" type="radio" name="adventure" id="flexRadioDefault1" value="descenso en canoa" >
                 
             </div>
             <div class="form-check, check">
