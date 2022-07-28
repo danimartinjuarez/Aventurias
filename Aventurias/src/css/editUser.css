@@ -84,9 +84,10 @@
     border-radius: 20px;
     border:none;
     height: 5vw;
-    width: 7vw;
+    width: 9vw;
     color: white;
     margin:1vw;
+    
 }
 
 .deleteButton{
@@ -95,29 +96,39 @@
     border-radius: 20px;
     border:none;
     color: white;
-    height: 2.5vw;
-    width: 9vw;
+    height: 4vw;
+    width: 12vw;
 }
 .editPage{
     background-color:#fee073;
     height: 75vw;
     width: auto;
 }
-@media (min-width:500px)and (max-width:1400px) {
+@media (min-width:300px)and (max-width:1100px) {
     .submitButton{
-        width: 7vw;
-        height: 4vw;
+        width: 20vw;
+        height: 7vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
+    
     .deleteButton{
-        width: 9vw;
-        height: 4vw;
+        width:30vw;
+        height: 9vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-   
+    
     .editPage{
     height: 95vw;
-    }   
+    }
+    
     #formUpdateUser{
-    height: 60vw;
+    height: 80vw;
     margin-top:2vw;
     }
 }
