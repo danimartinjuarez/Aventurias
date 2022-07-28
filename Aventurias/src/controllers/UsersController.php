@@ -63,7 +63,7 @@
             $user = $userHelper->findById($id);
             new View("editUser", ["user"=>$user]);    //duda
             
-            $this->index();
+            // $this->index();
         }
 
         public function update (array $request, $id) {

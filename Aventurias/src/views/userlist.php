@@ -9,7 +9,7 @@
         ?>
         <main>
           <section class="front"> 
-            <div id="pageTitle"><h2>RESERVAS</h2></div>        
+            <div id="pageTitle"><h2>Reservas</h2></div>        
             <a class="btn btn-outline-light btn-lg" href= '?action=create' role="button">NUEVA AVENTURA</a>
           </section>  
             <div id="wrapper">

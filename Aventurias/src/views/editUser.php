@@ -5,8 +5,19 @@
 <body id="bodyForUpdateUser">
     <?php
         require_once("Components/Header.php");
+    
     ?>
-<!-- <section id="formUpdate"> -->
+     <div class="text-center bg-image container-fluid">
+        <div class="mask" style="margin:0";>
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                <h1 class="mb-3 tittle">Modificar aventura</h1>
+                <a class="btn btn-outline-light btn-lg  text-align:center" href="#!" role="button">VOLVER</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="formUpdate">
         <form class="row g-3" id="formUpdateUser" action='?action=update&id=<?php echo $data["user"]->getId() ?>' method="post">
             <div id="checkImages">
                 <div class="form-check, check" >
@@ -69,6 +80,5 @@
             
             <input class="btn-lg btn-outline-warning go-add-task float" type="reset" value="Reset">
         </div>
-    <!-- </section> -->
-       
+    </section>
 </body>
