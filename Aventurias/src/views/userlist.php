@@ -48,14 +48,20 @@
                                 <a href= '?action=edit&id={$user->getID()}'>📝</a>
                                 </td>    
                                 <td>{$user->getDate_time()}</td>
-                                <td>{$user->getAdventures()}</td>
+                                <td>";
+                                 
+                                if ($user->getAdventures()==='descenso en canoa'){echo" <img src='public/images/descenso-en-canoa.jpeg' alt='aventura descenso en canoa'>";}
+                                if ($user->getAdventures()==='motos de agua'){echo" <img src='public/images/motosagua.jpeg' alt='aventura motos de agua'>";}
+                                if ($user->getAdventures()==='parapente'){echo" <img src='public/images/parapente.jpeg' alt='aventura parapente'>";}
+                                if ($user->getAdventures()==='Ruta del Cares'){echo"<img src='public/images/Ruta_del_Cares.jpeg' alt='aventura Ruta del Cares'>";}
+                                echo "</td>
                                 <td>{$user->getName()}</td>
                                 <td>{$user->getPeople()}</td>
                                 <td>{$user->getInfo()}</td
-                              </tr>
-                              ";
+                              </tr>";
+                              
                           }
-                          ?>
+                        ?>
                         </tbody>
                       </table>
 

@@ -53,7 +53,7 @@
         }
 
         public function store (array $request) {
-            $newUser = new Users(null, $request["name"], $request ["phone"]);
+            $newUser = new Users(null, $request["name"], $request ["phone"], $request["email"], $request ["people"], $request["adventure"], $request ["info"]);
             $newUser->save();
             $this->index();
         }
@@ -61,9 +61,9 @@
         public function edit ($id) {
             $userHelper = new Users();
             $user = $userHelper->findById($id);
-            new View("editUser", ["user"=>$user]);    //duda
+            new View("editUser", ["user"=>$user]);    
             
-            // $this->index();
+            
         }
 
         public function update (array $request, $id) {
@@ -74,5 +74,5 @@
 
             $this->index();
         }
-               
+
     }

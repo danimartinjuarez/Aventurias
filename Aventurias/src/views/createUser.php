@@ -29,7 +29,7 @@ require_once("Components/layout.php");
                             <img class="imgAdventure" src="public/images/descenso-en-canoa.jpeg" alt="escoger aventura descenso en canoa">
                         </label>
                         <br>
-                        <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="descenso en canoa">
+                        <input class="form-check-input, point" type="radio" name="adventure" id="flexRadioDefault1" value="descenso en canoa">
 
                     </div>
                     <div class="form-check, check">
@@ -37,7 +37,7 @@ require_once("Components/layout.php");
                             <img class="imgAdventure" src="public/images/motosagua.jpeg" alt="Escoger aventura motos de agua">
                         </label>
                         <br>
-                        <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="motos de agua">
+                        <input class="form-check-input, point" type="radio" name="adventure" id="flexRadioDefault2" value="motos de agua">
 
                     </div>
                     <div class="form-check, check">
@@ -45,7 +45,7 @@ require_once("Components/layout.php");
                             <img class="imgAdventure" src="public/images/parapente.jpeg" alt="escoger aventura parapente">
                         </label>
                         <br>
-                        <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault3" value="parapente">
+                        <input class="form-check-input, point" type="radio" name="adventure" id="flexRadioDefault3" value="parapente">
 
                     </div>
                     <div class="form-check, check">
@@ -53,7 +53,7 @@ require_once("Components/layout.php");
                             <img class="imgAdventure" src="public/images/Ruta_del_Cares.jpeg" alt="Escoger aventura Ruta del Cares">
                         </label>
                         <br>
-                        <input class="form-check-input, point" type="radio" name="flexRadioDefault" id="flexRadioDefault4" value="Ruta del Cares">
+                        <input class="form-check-input, point" type="radio" name="adventure" id="flexRadioDefault4" value="Ruta del Cares">
 
                     </div>
                 </div>
@@ -71,27 +71,28 @@ require_once("Components/layout.php");
                 </div>
                 <div class="col-12">
                     <label for="inputPeople" class="form-label">Nº de personas:</label>
-                    <input type="text" class="form-control" id="inputPeople" name="people">
+                    <input type="number" class="form-control" id="inputPeople" name="people">
                 </div>
                 <div class="col-md-6">
                     <label for="inputInfo" class="form-label">Observaciones:</label>
                     <input type="text" class="form-control" id="inputInfo" name="info">
                 </div>
+                <div class="col-12" id="deleteButton">
+                <button type="reset" class="deleteButton btn btn-primary">Borrar formulario</button>
+            </div>
+            <div class="col-12" id="submitButton">
+            
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+        </div>
             </form>
 
-            <div class="col-12" id="deleteButton">
-                <button type="submit" class="deleteButton btn btn-primary">Borrar formulario</button>
-            </div>
-
+            
         </<section>
                 
             
-        <div class="col-12" id="submitButton">
-            <button type="submit" class="submitButton btn btn-primary">Aceptar</button>
-            
-            <button type="submit" class="cancelButton btn btn-primary">cancelar</button>
-        </div>
+        
         
     </main> 
 
 </body>
+
