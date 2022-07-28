@@ -1,5 +1,5 @@
 form{
-    background-color: white;
+    background-color: blueviolet;
     width: 69vw;
     margin-bottom: 30%;
     position: relative;    
@@ -9,7 +9,7 @@ form{
     margin-bottom: 10%;
 }
 #bodyForCreateUser { 
-    background-color: white;
+    background-color: blueviolet;
     margin-right: 15vw;
     margin-left: 16vw;
     

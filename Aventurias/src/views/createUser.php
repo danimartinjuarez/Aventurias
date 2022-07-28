@@ -8,7 +8,8 @@
 ?>
 
 <div id="frontCreate">    
-    <img src="public/images/descenso-en-canoa.jpeg" class="img-fluid" id="imgCanoa" alt="Responsive image">
+    <img src="public/images/descenso-en-canoa.jpeg"
+     id="imgCanoa" alt="Responsive image">
     <a href="index.php" class="btn btn-primary backButton">Volver</a>
 </div>
     <!-- <section id="formNewAdventure"> -->

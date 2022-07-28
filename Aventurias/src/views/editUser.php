@@ -52,7 +52,7 @@
             </div>
             <div class="col-12">
                 <label for="inputEmail" class="form-label">Email</label>
-                <input type="text" class="form-control" id="inputEmail" placeholder="Tu email habitual" required value='<?php echo $data["user"]->getEmail() ?>'>
+                <input type="text" class="form-control" id="inputEmail" required value='<?php echo $data["user"]->getEmail() ?>'>
             </div>
             <div class="col-12">
                 <label for="inputPeople" class="form-label">Nº de personas:</label>
