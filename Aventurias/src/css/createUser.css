@@ -18,23 +18,22 @@
         font-size:4vh;
         margin-bottom: 1vh;
         font-weight:700;
+        font-family: 'Work Sans', sans-serif;
         
 
         
 }
 
-.btn{
+.mask .btn{
     border:solid white 2px;
     border-radius:20px;
     background-color: transparent;
-    max-width: 15vw;
-    max-height: 12vh;
     font-size: x-large;
     font-weight: 700;
-    
-
 }
-
+.mask .btn:hover{
+    background-color: white;
+}
 
 #form{
     background-color: white;
@@ -50,6 +49,7 @@ body {
     display:flex;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 
     
 }

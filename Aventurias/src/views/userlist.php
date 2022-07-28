@@ -10,7 +10,7 @@
         <main>
           <section class="front"> 
             <div id="pageTitle"><h2>Reservas</h2></div>        
-            <a class="btn btn-outline-light btn-lg" href= '?action=create' role="button">NUEVA AVENTURA</a>
+            <a class="btn btn-outline-light " href= '?action=create' role="button">NUEVA AVENTURA</a>
           </section>  
             <div id="wrapper">
               <div id="content-wrapper" class="d-flex flex-column">

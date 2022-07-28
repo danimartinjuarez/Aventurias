@@ -12,7 +12,7 @@ require_once("Components/layout.php");
             <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white">
                 <h1 class="mb-3 tittle">Nueva aventura</h1>
-                <a class="btn btn-outline-light btn-lg  text-align:center" href="#!" role="button">VOLVER</a>
+                <a class="btn btn-outline-light text-align:center" href="#" role="button">VOLVER</a>
                 </div>
             </div>
         </div>

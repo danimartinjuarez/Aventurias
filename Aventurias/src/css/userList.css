@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Work+Sans:ital,wght@0,400;1,400;1,700&display=swap');
 
-.tableBox{
-    margin: 4vh 2vw 4vh 2vw;
-} 
 
 thead{
     background-color: #feda24d5 ;
@@ -31,12 +28,21 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: x-large;
+ 
+}
+#pageTitle h2{
+    font-family: 'Oxygen', sans-serif;
 }
 
-
-.btn{
-    width: 43vw;
-    font-family: 'Oxygen', sans-serif;
+#pageTitle .btn{
+    width: 40vw;
+    border:solid white 2px;
+    border-radius:20px;
+    background-color: transparent;
+    font-size: x-large;
+    font-weight: 700;
+      
 }
 
 body{
@@ -47,10 +53,8 @@ align-items: center;
 width: 100%;
 }
 
-/* @include media-breakpoint-up(sm) {
-    (max-width:575.98px)  {
-        .front {
-            display: block;
+ @media (min-width:300px) and (max-width:1000px) {
+        .btn {
+            width:70vw;
         }
     }
-} */ 
