@@ -1,7 +1,7 @@
 
 
 header{
-    display: flex;
+    display: flex !important;
     align-items: flex-end;
     background-color: #024164;
     width: 100%;
@@ -16,10 +16,14 @@ header{
 #title h2{
     color: white;
     font-family: 'Oxygen', sans-serif;
-    
-    font-size: 4vh;
+    margin: 1vh;
+    font-size: 3vh;
 }
 
 #pageTitle{
     color: white;
+    font-size:4vh;
+    margin-bottom: 1vh;
+    font-weight:bolder;
+    
 }

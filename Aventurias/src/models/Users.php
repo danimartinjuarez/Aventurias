@@ -78,6 +78,19 @@
         }
 
         public function save(){
-            $this->database->mysql->query("INSERT INTO `{$this->table}`(`name`, `phone`) VALUES  ('$this->name', '$this->phone');");
+            $this->database->mysql->query("INSERT INTO `{$this->table}`(`name`, `phone`, `email`, `people`, `adventure`, `info` ) VALUES  ('$this->name', '$this->phone', '$this->email', '$this->people', '$this->adventure', '$this->info');");
+        }
+
+        public function rename($name, $phone, $email, $people, $adventure, $info) {
+            $this->name=$name;
+            $this->phone=$phone;
+            $this->info=$info;
+            $this->adventure=$adventure;
+            $this->people=$people;
+            $this->email=$email;
+        }
+
+        public function update() {
+            $this->database->mysql->query("UPDATE `{$this->table}` SET `name`='{$this->name}', `phone`= '{$this->phone}', `email`='{$this->email}', `info`= '{$this->info}', `adventure`='{$this->adventure}', `people`= '{$this->people}' WHERE `ID` = {$this->id}");
         }
     }

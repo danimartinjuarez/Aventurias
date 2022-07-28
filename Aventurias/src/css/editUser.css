@@ -1,9 +1,16 @@
 
+.editUser{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
 .front{
     width:100%;
     height:50vh;
     background-image:url("https://tse4.mm.bing.net/th?id=OIP.11XI3row9ek0X_zZsxRRiwHaFI&pid=Api");
-    background-color:#024164;
     background-size:cover;
     background-repeat: no-repeat;
     display: flex;
@@ -20,8 +27,8 @@
         font-weight:700;
         font-family: 'Work Sans', sans-serif;
         
-}
 
+}
 
 .mask .btn{
     border:solid white 2px;
@@ -34,15 +41,9 @@
     background-color: white;
 }
 
-.formCreate{
-    background-color: white;
-    width: 90vw;
-    height: auto;
-    margin-top:8vh !important;
-}
-#submitButton {
-    margin-bottom: 10%;
-}
+
+
+
 #checkImages {
     width: 100em;
     display: flex;
@@ -57,25 +58,17 @@
     width: 10%;
 }
 
-.formSection{
+#formUpdateUser{
     display:flex;
     flex-direction: column;
-    width: 100vw;
+    width: 80vw;
     align-items: center;
-}
+    height: auto;
+    margin:5%;
+    
 
-#deleteButton  {
-    display: flex;
-    justify-content: flex-end;
 }
-.deleteButton{    
-    margin-top: 3vh;
-    background-color: #024164;
-    border-radius: 20px;
-    border:none;
-}
-
-#submitButton{
+#editSubmitButton{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,11 +89,16 @@
     border:none;
     height: 7vh;
 }
-.newAdvPage{
-    background-color:#96D5F8;
+.editPage{
+    background-color:#fee073;
+}
+.form{
+    background-color: white ;
+    width:90vw ;
     display:flex;
-    justify-content: center;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
 
 }
