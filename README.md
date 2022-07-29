@@ -46,6 +46,10 @@
    > git clone
    
    > composer update
+  
+  <p align="center">Command to execute tests</p>
+  <p align="center">Comando para ejecutar los tests</p>
+   > vendor/bin/phpunit tests
    
    You will need XAMP in order to create a database with MySQL. Please, name the database as "Aventurias", and add a table named "adventures", following this structure: 
    
