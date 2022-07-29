@@ -42,10 +42,16 @@
   
   <h4 align="center" id="howTo">How to</h4>
   <p align="center">This is our first project using PHP vanilla, along with MySql in order to manage a local database; it's also the first time we oficially use Bootstrap as a CSS source. We are combining both languages with the basics, HTML and CSS.</p>
+   
 
    > git clone
    
    > composer update
+   
+     <p align="center">Command to execute tests</p>
+  <p align="center">Comando para ejecutar los tests</p>
+   
+   > vendor/bin/phpunit tests
    
    You will need XAMP in order to create a database with MySQL. Please, name the database as "Aventurias", and add a table named "adventures", following this structure: 
    
