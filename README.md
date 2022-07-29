@@ -48,7 +48,7 @@
    
    > composer update
    
-     <p align="center">Command to execute tests</p>
+  <p align="center">Command to execute tests</p>
   <p align="center">Comando para ejecutar los tests</p>
    
    > vendor/bin/phpunit tests
