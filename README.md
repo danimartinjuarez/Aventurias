@@ -16,7 +16,7 @@
       <li>📸 <a href="#previews"> Previews</a></li>
   </ul>
   </div>
-  
+  <br>
   <div align="center">
   <h3 align="center">Alan García</h3>
   <h3 align="center">Daniel Juárez</h3>
