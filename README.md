@@ -21,16 +21,16 @@
 
  <div style="display:flex; justify-content:center;">
   <h4 align="center" id="aim">Aim of our project</h4>
-  <p>Aventurias is our first CRUD project using databases. Our project's aim is offering a platform which adventure tourism businesses can use to manage their bookings. Through this platform, users can create appointments, but also modify or cancel the active ones.  </p>
+  🇬🇧<p>Aventurias is our first CRUD project using databases. Our project's aim is offering a platform which adventure tourism businesses can use to manage their bookings. Through this platform, users can create appointments, but also modify or cancel the active ones.  </p>
 
   
   <h4 align="center" id="inspiration">Style and inspiration</h4>
-  <p>Our application styling is based in the Asturian flag, which is yellow and blue coloured <img src="Aventurias\public\images\blueSquare.png"><img src="Aventurias\public\images\yellowSquare.png">. Adventure and active tourism is specially relevant in our region, where it's common to find plenty of choices for leisure time activities, such as hiking, parachuting, kayaking, paintball, speleology, cycling... So we found in that field a good opportunity to offer a solution. </p>
+  🇬🇧<p>Our application styling is based in the Asturian flag, which is yellow and blue coloured <img src="Aventurias\public\images\blueSquare.png"><img src="Aventurias\public\images\yellowSquare.png">. Adventure and active tourism is specially relevant in our region, where it's common to find plenty of choices for leisure time activities, such as hiking, parachuting, kayaking, paintball, speleology, cycling... So we found in that field a good opportunity to offer a solution. </p>
   
     
   <h4 align="center" id="stack">Stack used</h4>
   
-  <p align="center">This is our first project using PHP vanilla, along with MySql in order to manage databases; it's also the first time we oficially use Bootstrap as a CSS source. We are combining both languages with the basics, HTML and CSS.</p>
+  🇬🇧<p align="center">This is our first project using PHP vanilla, along with MySql in order to manage databases; it's also the first time we oficially use Bootstrap as a CSS source. We are combining both languages with the basics, HTML and CSS.</p>
   <br>
   <div align="center" class="logoBox" style="display: flex">
       <img src="Aventurias\public\images\/html-5.png" style="width: 64px">
@@ -41,17 +41,19 @@
   </div>
   
   <h4 align="center" id="howTo">How to</h4>
-  <p align="center">This is our first project using PHP vanilla, along with MySql in order to manage a local database; it's also the first time we oficially use Bootstrap as a CSS source. We are combining both languages with the basics, HTML and CSS.</p>
+  🇬🇧<p align="center">This is our first project using PHP vanilla, along with MySql in order to manage a local database; it's also the first time we oficially use Bootstrap as a CSS source. We are combining both languages with the basics, HTML and CSS.</p>
 
    > git clone
    
    > composer update
   
-  <p align="center">Command to execute tests</p>
-  <p align="center">Comando para ejecutar los tests</p>
+ 🇬🇧<p align="center">Command to execute tests</p>
+ <p align="center">Comando para ejecutar los tests</p>
+   
    > vendor/bin/phpunit tests
    
-   You will need XAMP in order to create a database with MySQL. Please, name the database as "Aventurias", and add a table named "adventures", following this structure: 
+   
+   🇬🇧You will need XAMP in order to create a database with MySQL. Please, name the database as "Aventurias", and add a table named "adventures", following this structure: 
    
    <table>
      <thead>
@@ -75,7 +77,10 @@
    </table>
    
   <h4 align="center" id="previews">Previews</h4>
-  <p></p>
+         <img align="center" src="Aventurias\public\images\">
+         <img align="center" src="Aventurias\public\images\">
+         <img align="center" src="Aventurias\public\images\">
+
  </div>
 
 </main>
