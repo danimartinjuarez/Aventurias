@@ -77,9 +77,9 @@
    </table>
    
   <h4 align="center" id="previews">Previews</h4>
-         <img align="center" src="Aventurias\public\images\">
-         <img align="center" src="Aventurias\public\images\">
-         <img align="center" src="Aventurias\public\images\">
+         <img align="center" src="Aventurias\public\images\preview1.png">
+         <img align="center" src="Aventurias\public\images\preview2.png">
+         <img align="center" src="Aventurias\public\images\preview-desktop.png">
 
  </div>
 
