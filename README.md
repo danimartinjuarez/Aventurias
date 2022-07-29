@@ -19,11 +19,11 @@
   
    <br>
   <div align="center">
-  <h3 align="center">Alan García</h3>
-  <h3 align="center">Daniel Juárez</h3>
-  <h3 align="center">Franciso Álvarez</h3>
-  <h3 align="center">Patricia Rodríguez </h3>
-  <h3 align="center">Inma González </h3>
+  <h5 align="center">Alan García</h5>
+  <h5 align="center">Daniel Juárez</h5>
+  <h5 align="center">Franciso Álvarez</h5>
+  <h5 align="center">Patricia Rodríguez </h5>
+  <h5 align="center">Inma González </h5>
   </div>
   
  ____________________________________________________________________________________________________
