@@ -16,17 +16,15 @@
       <li>📸 <a href="#previews"> Previews</a></li>
   </ul>
   </div>
-  
-   <br>
+  <br>
   <div align="center">
-  <h5 align="center">Alan García</h5>
-  <h5 align="center">Daniel Juárez</h5>
-  <h5 align="center">Franciso Álvarez</h5>
-  <h5 align="center">Patricia Rodríguez </h5>
-  <h5 align="center">Inma González </h5>
+  <h3 align="center">Alan García</h3>
+  <h3 align="center">Daniel Juárez</h3>
+  <h3 align="center">Franciso Álvarez</h3>
+  <h3 align="center">Patricia Rodríguez </h3>
+  <h3 align="center">Inma González </h3>
   </div>
-  
- ____________________________________________________________________________________________________
+____________________________________________________________________________________________________
 
  <div style="display:flex; justify-content:center;">
   <h4 align="center" id="aim">Aim of our project</h4>
@@ -61,8 +59,8 @@
    
    > composer update
   
- 🇬🇧<p>Command to execute tests:</p>
- 🇪🇸<p>Comando para ejecutar los tests:</p>
+ 🇬🇧<p align="center">Command to execute tests:</p>
+ 🇪🇸<p align="center">Comando para ejecutar los tests:</p>
    
    > vendor/bin/phpunit tests
    
