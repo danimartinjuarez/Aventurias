@@ -17,7 +17,14 @@
   </ul>
   </div>
   
- ____________________________________________________________________________________________________
+  <div align="center">
+  <h3 align="center">Alan García</h3>
+  <h3 align="center">Daniel Juárez</h3>
+  <h3 align="center">Franciso Álvarez</h3>
+  <h3 align="center">Patricia Rodríguez </h3>
+  <h3 align="center">Inma González </h3>
+  </div>
+____________________________________________________________________________________________________
 
  <div style="display:flex; justify-content:center;">
   <h4 align="center" id="aim">Aim of our project</h4>
